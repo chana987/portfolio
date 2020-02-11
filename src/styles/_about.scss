@@ -1,0 +1,25 @@
+.about {
+  background-image: linear-gradient(to bottom right, $color-secondary-clear, $color-primary-light-clear),
+    url("../assets/desert.jpg");
+  text-align: right;
+  position: relative;
+}
+
+.about-me {
+  line-height: 1.7rem;
+  text-align: justify;
+  padding-bottom: 2rem;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  justify-items: center;
+  text-align: center;
+  color: $color-tertiary;
+  grid-gap: 1rem;
+}
+
+.skill-icon {
+  font-size: 5rem;
+}

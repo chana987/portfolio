@@ -1,0 +1,28 @@
+.contact {
+  background-image: linear-gradient(to bottom right, $color-secondary-clear, $color-primary-light-clear),
+    url("../assets/carmel.jpg");
+  text-align: right;
+  position: relative;
+}
+
+.contacts {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+}
+
+.contact-field {
+  display: grid;
+  grid-template-columns: 2rem 7rem 20rem;
+  margin: 1rem;
+  justify-items: left;
+}
+
+.field {
+  font-weight: bold;
+}
+
+.contact-icon,
+.contact-value {
+  font-size: 1.3rem;
+}
