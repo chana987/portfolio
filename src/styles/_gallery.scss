@@ -1,5 +1,11 @@
 .gallery {
-    background-image: linear-gradient(to bottom right, $color-secondary-clear, $color-primary-light-clear),
-      url('../assets/desert.jpg');
-    text-align: right;
-  }
+  background-image: linear-gradient(to bottom right, $color-secondary-clear, $color-tertiary-clear),
+    url("../assets/desert.jpg");
+  text-align: right;
+}
+
+.gallery-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

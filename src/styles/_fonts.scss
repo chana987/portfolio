@@ -8,6 +8,7 @@ h1 {
     font-family: $font-display;
     color: $color-primary;
     padding: 1rem;
+    filter: drop-shadow(1px 1px 3px $color-tertiary-clear);
 }
 
 h2 {
@@ -15,6 +16,7 @@ h2 {
     font-family: $font-display;
     color: $color-primary;
     padding-top: 0.625rem;
+    filter: drop-shadow(1px 1px 3px $color-tertiary-clear);
 }
 
 h3 {
