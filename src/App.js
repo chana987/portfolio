@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, NavLink, Switch } from 'react-router-dom'
 import About from './components/About'
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
@@ -9,9 +9,9 @@ import CV from './components/CV'
 import profile from './assets/profile.jpeg'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone, faGlobe } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faEnvelope, faPhone)
+library.add(fab, faEnvelope, faPhone, faGlobe)
 
 const App = () => {
   return (

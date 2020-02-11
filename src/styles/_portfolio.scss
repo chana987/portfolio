@@ -1,5 +1,17 @@
 .portfolio {
-    background-image: linear-gradient(to bottom right, $color-secondary-clear, $color-primary-light-clear),
-      url('../assets/desert.jpg');
-    text-align: right;
-  }
+  background-image: linear-gradient(to bottom right, $color-secondary-clear, $color-primary-light-clear),
+    url("../assets/desert.jpg");
+  text-align: right;
+}
+
+.project-pic {
+  width: 10rem;
+  height: 10rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  justify-content: center;
+  text-align: center;
+}
