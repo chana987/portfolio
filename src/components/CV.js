@@ -7,9 +7,7 @@ const CV = () => {
         <div className="cv view">
             <h1>My CV</h1>
             <div className="pdf-container">
-                <iframe className="pdf-frame" src="https://docs.google.com/gview?url=https://github.com/chana987/cv/raw/master/cv.pdf&embedded=true" title="cv">
-                    <img className="pdf-img" src={cv} alt=""/>
-                </iframe>
+                <img className="pdf-frame" src={cv} />
             </div>
         </div>
     )
