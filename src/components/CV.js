@@ -1,14 +1,31 @@
-import React from 'react'
+import React, { Fragment, useState, useEffect } from 'react'
 import cv from '../assets/cv.png'
 
 const CV = () => {
-    const pdf = `${cv}#view=FitH`
+    const checkImage = path => {
+        new Promise((resolve, reject) => {
+            const img = new Image()
+            img.onload = () => resolve(path)
+            img.onerror = () => reject()
+            img.src = path
+        })
+            .then(() => {
+                setImage(true)
+            })
+    }
+
+    const [image, setImage] = useState(false)
+
+    useEffect(() => {
+        checkImage(cv)
+    }, [])
+
     return (
         <div className="cv view">
             <h1>My CV</h1>
-            <div className="pdf-container">
+            {image && <div className="pdf-container">
                 <img className="pdf-frame" src={cv} />
-            </div>
+            </div>}
         </div>
     )
 }
