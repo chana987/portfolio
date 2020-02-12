@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.67983163.chunk.css",
-    "main.js": "/portfolio/static/js/main.96a7917e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.96a7917e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ddaa5e46.chunk.css",
+    "main.js": "/portfolio/static/js/main.51ad3b55.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.51ad3b55.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
     "static/js/2.e42a8eb1.chunk.js": "/portfolio/static/js/2.e42a8eb1.chunk.js",
     "static/js/2.e42a8eb1.chunk.js.map": "/portfolio/static/js/2.e42a8eb1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.647dae21cdb79935a9d4692588b84e0d.js": "/portfolio/precache-manifest.647dae21cdb79935a9d4692588b84e0d.js",
+    "precache-manifest.978fb569a4504dc75f1eb4444f84c6a7.js": "/portfolio/precache-manifest.978fb569a4504dc75f1eb4444f84c6a7.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.67983163.chunk.css.map": "/portfolio/static/css/main.67983163.chunk.css.map",
+    "static/css/main.ddaa5e46.chunk.css.map": "/portfolio/static/css/main.ddaa5e46.chunk.css.map",
     "static/js/2.e42a8eb1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e42a8eb1.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio/static/media/redwood.d8ffbc4c.jpg",
     "static/media/comic-clan-1.png": "/portfolio/static/media/comic-clan-1.1e198a1a.png",
     "static/media/comic-clan-2.png": "/portfolio/static/media/comic-clan-2.65fc1075.png",
     "static/media/crm-1.png": "/portfolio/static/media/crm-1.659b3115.png",
     "static/media/crm-2.png": "/portfolio/static/media/crm-2.0eab105c.png",
-    "static/media/cv.png": "/portfolio/static/media/cv.d9dfae10.png",
+    "static/media/cv.png": "/portfolio/static/media/cv.a3c4e910.png",
     "static/media/elephant.jpeg": "/portfolio/static/media/elephant.516df605.jpeg",
     "static/media/james.jpg": "/portfolio/static/media/james.32d85671.jpg",
     "static/media/natours-1.png": "/portfolio/static/media/natours-1.a66a5517.png",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
     "static/js/2.e42a8eb1.chunk.js",
-    "static/css/main.67983163.chunk.css",
-    "static/js/main.96a7917e.chunk.js"
+    "static/css/main.ddaa5e46.chunk.css",
+    "static/js/main.51ad3b55.chunk.js"
   ]
 }
