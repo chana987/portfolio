@@ -12,6 +12,8 @@ import onecklace1 from '../assets/projects/onecklace-1.png'
 import onecklace2 from '../assets/projects/onecklace-2.png'
 import trillo1 from '../assets/projects/trillo-1.png'
 import trillo2 from '../assets/projects/trillo-2.png'
+import ghFinder1 from '../assets/projects/gh-finder-1.png'
+import ghFinder2 from '../assets/projects/gh-finder-2.png'
 
 const projects = [
     {
@@ -55,8 +57,8 @@ const projects = [
     },
     {
         name: "Github Finder",
-        img1: gh-finder1,
-        img2: gh-finder2,
+        img1: ghFinder1,
+        img2: ghFinder2,
         github: "https://chana987.github.io/github-finder/",
         url: "https://chana987.github.io/github-finder/"
     },
