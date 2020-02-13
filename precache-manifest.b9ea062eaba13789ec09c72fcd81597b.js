@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07ec8b310784f4ae19d28d1132503d9d",
+    "revision": "25f742a36f7dfe7a7d6543397e12f835",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a478577342514b30eb55",
-    "url": "/portfolio/static/css/main.d6de1921.chunk.css"
+    "revision": "725b1c6ff6af8bf8bf47",
+    "url": "/portfolio/static/css/main.b9ff558c.chunk.css"
   },
   {
     "revision": "ee62ba4b7398710efab4",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.32927f11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a478577342514b30eb55",
+    "revision": "725b1c6ff6af8bf8bf47",
     "url": "/portfolio/static/js/main.63f2a087.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
+  },
+  {
+    "revision": "17bceff35c3b83f00be31fa6bf18a608",
+    "url": "/portfolio/static/media/carmel-s.17bceff3.jpg"
   },
   {
     "revision": "98a436904bad999ed65dc46cce7f677d",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "16a5ec9af068a93051858f701e140b0a",
     "url": "/portfolio/static/media/cv.16a5ec9a.png"
+  },
+  {
+    "revision": "dbf83b332a6b27db2aab44850b8880e6",
+    "url": "/portfolio/static/media/desert-s.dbf83b33.jpg"
   },
   {
     "revision": "ee12ba1ddc92104f1b056da830f5246e",
@@ -96,8 +104,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/profile.fcc9a2b7.jpeg"
   },
   {
+    "revision": "108ad6fd650466440561dc3675260ee0",
+    "url": "/portfolio/static/media/pura-s.108ad6fd.jpg"
+  },
+  {
     "revision": "03267a992c335da7422d8859f87c8751",
     "url": "/portfolio/static/media/pura.03267a99.jpg"
+  },
+  {
+    "revision": "47d50d5084529a04126370cad3c7482f",
+    "url": "/portfolio/static/media/redwood-s.47d50d50.jpg"
   },
   {
     "revision": "d8ffbc4c2cf5724526a3306a24cf9bf4",
