@@ -1,5 +1,7 @@
 import comicClan1 from '../assets/projects/comic-clan-1.png'
 import comicClan2 from '../assets/projects/comic-clan-2.png'
+import kelev1 from '../assets/projects/kelev-1.png'
+import kelev2 from '../assets/projects/kelev-2.png'
 import crm1 from '../assets/projects/crm-1.png'
 import crm2 from '../assets/projects/crm-2.png'
 import natours1 from '../assets/projects/natours-1.png'
@@ -12,6 +14,12 @@ import trillo1 from '../assets/projects/trillo-1.png'
 import trillo2 from '../assets/projects/trillo-2.png'
 
 const projects = [
+    {
+        name: "Kelev",
+        img1: kelev1,
+        img2: kelev2,
+        github: "https://github.com/Renee88/Kelev-App/"
+    },
     {
         name: "Comic Clan",
         img1: comicClan1,
@@ -49,8 +57,7 @@ const projects = [
         name: "oNecklace",
         img1: onecklace1,
         img2: onecklace2,
-        github: "https://github.com/chana987/oNecklace/",
-        url: "https://chana987.github.io/oNecklace/"
+        github: "https://github.com/chana987/oNecklace/"
     },
 ]
 
