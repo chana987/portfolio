@@ -54,6 +54,13 @@ const projects = [
         github: "https://chana987.github.io/CRM/"
     },
     {
+        name: "Github Finder",
+        img1: gh-finder1,
+        img2: gh-finder2,
+        github: "https://chana987.github.io/github-finder/",
+        url: "https://chana987.github.io/github-finder/"
+    },
+    {
         name: "oNecklace",
         img1: onecklace1,
         img2: onecklace2,
