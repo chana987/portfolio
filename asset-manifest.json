@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b9ff558c.chunk.css",
-    "main.js": "/portfolio/static/js/main.63f2a087.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.63f2a087.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.8213048d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8213048d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.32927f11.chunk.js": "/portfolio/static/js/2.32927f11.chunk.js",
-    "static/js/2.32927f11.chunk.js.map": "/portfolio/static/js/2.32927f11.chunk.js.map",
+    "static/js/2.6ce8608a.chunk.js": "/portfolio/static/js/2.6ce8608a.chunk.js",
+    "static/js/2.6ce8608a.chunk.js.map": "/portfolio/static/js/2.6ce8608a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b9ea062eaba13789ec09c72fcd81597b.js": "/portfolio/precache-manifest.b9ea062eaba13789ec09c72fcd81597b.js",
+    "precache-manifest.de674105f4c548f58f78133af2f3720b.js": "/portfolio/precache-manifest.de674105f4c548f58f78133af2f3720b.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.b9ff558c.chunk.css.map": "/portfolio/static/css/main.b9ff558c.chunk.css.map",
-    "static/js/2.32927f11.chunk.js.LICENSE.txt": "/portfolio/static/js/2.32927f11.chunk.js.LICENSE.txt",
+    "static/js/2.6ce8608a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6ce8608a.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio/static/media/redwood.d8ffbc4c.jpg",
     "static/media/comic-clan-1.png": "/portfolio/static/media/comic-clan-1.ed3313b9.png",
     "static/media/comic-clan-2.png": "/portfolio/static/media/comic-clan-2.18ba9cb4.png",
@@ -20,6 +20,8 @@
     "static/media/cv.png": "/portfolio/static/media/cv.16a5ec9a.png",
     "static/media/elephant.jpeg": "/portfolio/static/media/elephant.516df605.jpeg",
     "static/media/james.jpg": "/portfolio/static/media/james.4c3acafb.jpg",
+    "static/media/kelev-1.png": "/portfolio/static/media/kelev-1.f5cc7e08.png",
+    "static/media/kelev-2.png": "/portfolio/static/media/kelev-2.619b7e30.png",
     "static/media/natours-1.png": "/portfolio/static/media/natours-1.ed3448e5.png",
     "static/media/natours-2.png": "/portfolio/static/media/natours-2.47b6237e.png",
     "static/media/nexter-1.png": "/portfolio/static/media/nexter-1.8bceb252.png",
@@ -40,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.32927f11.chunk.js",
+    "static/js/2.6ce8608a.chunk.js",
     "static/css/main.b9ff558c.chunk.css",
-    "static/js/main.63f2a087.chunk.js"
+    "static/js/main.8213048d.chunk.js"
   ]
 }
