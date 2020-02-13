@@ -2,6 +2,11 @@
     background-image: linear-gradient(to bottom right, rgba(149, 168, 179, 0.7), rgba(106, 132, 148, 0.7)),
       url('../../assets/backgrounds/pura.jpg');
     text-align: right;
+
+    @media only screen and (max-width: $bp-medium) {
+      background-image: linear-gradient(to bottom right, $color-secondary-clear, $color-primary-clear),
+      url("../../assets/backgrounds/pura-s.jpg");
+    }
 }
 
 .home-link {

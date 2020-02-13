@@ -5,6 +5,10 @@
     background: $color-primary;
     color: $color-secondary;
 
+    @media only screen and (max-width: $bp-small) {
+      min-height: 100%;
+    }
+
     #profile {
       height: 10rem;
       margin: 1.875rem auto;
@@ -13,11 +17,18 @@
 
       @media only screen and (max-width: $bp-medium) {
         max-height: 10vw;
+        margin-bottom: .5rem;
       }
     }
   
     #links {
       text-align: left;
       margin: 3.125rem;
+
+      @media only screen and (max-width: $bp-small) {
+        display: flex;
+        justify-content: center;
+        margin: .5rem 0;
+      }
     }
   }

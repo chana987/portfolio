@@ -3,6 +3,11 @@
     url("../../assets/backgrounds/carmel.jpg");
   text-align: right;
   position: relative;
+
+  @media only screen and (max-width: $bp-medium) {
+    background-image: linear-gradient(to bottom right, $color-secondary-clear, $color-primary-clear),
+    url("../../assets/backgrounds/carmel-s.jpg");
+  }
 }
 
 .contacts {
