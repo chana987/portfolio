@@ -8,16 +8,26 @@ import tefillin from '../assets/gallery/tefillin.jpg'
 import elephant from '../assets/gallery/elephant.jpeg'
 import vag2 from '../assets/gallery/vag-2.jpeg'
 import vag4 from '../assets/gallery/vag-4.jpeg'
+import grandparents from '../assets/gallery/grandparents.jpeg'
+import bambi from '../assets/gallery/bambi.jpeg'
+import emu from '../assets/gallery/emu.jpeg'
+import model from '../assets/gallery/model.jpeg'
+import flower from '../assets/gallery/flower.jpeg'
 
 export default [
     sun,
     vag3,
     paradise,
-    portrait,
+    grandparents,
+    flower,
     vag1,
     james,
     tefillin,
     elephant,
     vag2,
-    vag4
+    portrait,
+    vag4,
+    bambi, 
+    emu,
+    model
 ]
