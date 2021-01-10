@@ -1,8 +1,23 @@
 
 const skills = [
     {
+        name: 'C#',
+        icon: 'csharp',
+        set: 'icoMoon'
+    },
+    {
+        name: 'AWS',
+        icon: 'amazonaws',
+        set: 'icoMoon'
+    },
+    {
         name: 'HTML5',
         icon: 'html5',
+        set: 'icoMoon'
+    },
+    {
+        name: 'JavaScript',
+        icon: 'javascript',
         set: 'icoMoon'
     },
     {
@@ -11,13 +26,18 @@ const skills = [
         set: 'icoMoon'
     },
     {
-        name: 'Illustrator',
-        icon: 'adobeillustrator',
+        name: 'React',
+        icon: 'react',
         set: 'icoMoon'
     },
     {
-        name: 'React',
-        icon: 'react',
+        name: 'PowerShell',
+        icon: 'powershell',
+        set: 'icoMoon'
+    }, ,
+    {
+        name: '.NET',
+        icon: 'dot-net',
         set: 'icoMoon'
     },
     {
@@ -56,8 +76,8 @@ const skills = [
         set: 'icoMoon'
     },
     {
-        name: 'JavaScript',
-        icon: 'javascript',
+        name: 'Illustrator',
+        icon: 'adobeillustrator',
         set: 'icoMoon'
     },
 ]

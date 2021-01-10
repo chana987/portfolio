@@ -16,11 +16,11 @@ import flower from '../assets/gallery/flower.jpeg'
 
 export default [
     sun,
-    vag3,
     paradise,
     grandparents,
     flower,
     vag1,
+    vag3,
     james,
     tefillin,
     elephant,

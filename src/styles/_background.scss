@@ -1,11 +1,11 @@
 .view {
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    padding: 3rem;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
 
-    @media only screen and (max-width: $bp-small) {
-        min-height: 100%;
-        height: min-content;
-      }
+  @media only screen and (max-width: $bp-small) {
+    min-height: 100%;
+    height: min-content;
+  }
 }

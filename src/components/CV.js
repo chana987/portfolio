@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react'
-import cv from '../assets/cv.png'
+import cv from '../assets/CV_2021.jpg'
 
 const CV = () => {
     const checkImage = path => {
