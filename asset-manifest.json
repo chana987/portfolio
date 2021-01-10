@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fcb71009.chunk.css",
-    "main.js": "/portfolio/static/js/main.3ccaf7d2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3ccaf7d2.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f4f51611.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f4f51611.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/js/2.5bcfc043.chunk.js": "/portfolio/static/js/2.5bcfc043.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.fcb71009.chunk.css.map": "/portfolio/static/css/main.fcb71009.chunk.css.map",
     "static/js/2.5bcfc043.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5bcfc043.chunk.js.LICENSE.txt",
-    "static/media/CV_2021.a1e09108.jpg": "/portfolio/static/media/CV_2021.a1e09108.jpg",
+    "static/media/CV_2021.7f29ec97.jpg": "/portfolio/static/media/CV_2021.7f29ec97.jpg",
     "static/media/bambi.71142aac.jpeg": "/portfolio/static/media/bambi.71142aac.jpeg",
     "static/media/App.scss": "/portfolio/static/media/redwood.a9ff1149.jpg",
     "static/media/comic-clan-1.d5690b63.png": "/portfolio/static/media/comic-clan-1.d5690b63.png",
@@ -49,6 +49,6 @@
     "static/js/runtime-main.8fed2963.js",
     "static/js/2.5bcfc043.chunk.js",
     "static/css/main.fcb71009.chunk.css",
-    "static/js/main.3ccaf7d2.chunk.js"
+    "static/js/main.f4f51611.chunk.js"
   ]
 }
