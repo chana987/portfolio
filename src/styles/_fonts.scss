@@ -44,11 +44,11 @@ h5 {
     text-decoration: none;
     display: block;
     padding: 0.625rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .selected {
-    color: #fff;
+    color: $color-primary-dark;
 }
 
 p {
