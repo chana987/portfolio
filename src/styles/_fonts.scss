@@ -6,39 +6,36 @@ a, a:active {
 h1 {
     font-size: 3.125rem;
     font-family: $font-display;
-    color: $color-primary;
-    padding: 1rem;
-    filter: drop-shadow(1px 1px 3px $color-tertiary-clear);
+    color: $color-secondary;
+    padding-bottom: 3rem;
 }
 
 h2 {
     font-size: 2.5rem;
     font-family: $font-display;
-    color: $color-primary;
-    padding-top: 0.625rem;
-    filter: drop-shadow(1px 1px 3px $color-tertiary-clear);
+    color: $color-secondary;
 }
 
 h3 {
-    font-size: 1.5625rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-family: $font-primary;
     color: $color-secondary;
     padding: 0.625rem;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: $font-primary;
     color: $color-secondary;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 h5 {
     font-size: 1.3rem;
     font-family: $font-primary;
-    color: $color-tertiary;
+    color: $color-secondary;
     font-weight: 200;
 }
 
@@ -56,5 +53,9 @@ h5 {
 
 p {
     font-family: $font-primary;
-    color: $color-tertiary;
+    color: $color-secondary;
+}
+
+a {
+    font-size: 1.25rem;
 }

@@ -20,7 +20,7 @@ const Project = ({ p }) => {
     useEffect(() => {
         checkImage(p.img1)
         checkImage(p.img2)
-    }, [])
+    }, [p])
 
     return (
         <Fragment>

@@ -6,12 +6,13 @@ const About = () => {
     return (
         <div className="about view">
             <div className="pic"></div>
-            <h1>About Me</h1>
+            <h1>A little about me:</h1>
             <p className="about-me">
-                I lived in quite a few place in the US, traveling a lot, before I moved to Israel at the age of 7.<br />
-                As an adult, I've lived in three major metropolitan areas in Israel: Jerusalem, Haifa and Tel Aviv. In each one I have developed a new sense of style and a different perspective on Israeli society.<br />
-                I enjoy doing all sorts of art, from pen sketches to stained glass. I also love learning new skills, making things with my own hands, and working out complex puzzles.
-                        </p>
+                A full stack developer with a keen eye for detail and an artistic flair.<br />
+                I love to solve complex problems and create beautiful products. I'm passionate about creating the best user experience possible.<br />
+                I'm a fast learner and I'm always looking to improve my skills.<br />
+                My meticulous approach and understanding of the full picture have helped me navigate challenging situations and create innovative solutions.
+            </p>
             <div className="skills">
                 {skills.map((s, i) => <Skill s={s} key={i} />)}
             </div>

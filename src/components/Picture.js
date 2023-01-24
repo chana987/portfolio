@@ -17,7 +17,7 @@ const Picture = ({ p }) => {
 
     useEffect(() => {
         checkImage(p)
-    }, [])
+    }, [p])
 
     return (
         <Fragment>

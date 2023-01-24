@@ -14,7 +14,7 @@ import emu from '../assets/gallery/emu.jpeg'
 import model from '../assets/gallery/model.jpeg'
 import flower from '../assets/gallery/flower.jpeg'
 
-export default [
+const images = [
     sun,
     paradise,
     grandparents,
@@ -31,3 +31,5 @@ export default [
     emu,
     model
 ]
+
+export default images

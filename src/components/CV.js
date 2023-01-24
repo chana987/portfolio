@@ -1,31 +1,22 @@
-import React, { Fragment, useState, useEffect } from 'react'
-import cv from '../assets/CV_2021.jpg'
+import React, { useEffect } from 'react'
+import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack'
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
+import 'react-pdf/dist/esm/Page/TextLayer.css'
+import cv from '../assets/cv_2023.pdf'
 
 const CV = () => {
-    const checkImage = path => {
-        new Promise((resolve, reject) => {
-            const img = new Image()
-            img.onload = () => resolve(path)
-            img.onerror = () => reject()
-            img.src = path
-        })
-            .then(() => {
-                setImage(true)
-            })
-    }
-
-    const [image, setImage] = useState(false)
-
     useEffect(() => {
-        checkImage(cv)
-    }, [])
+        pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+    });
 
     return (
         <div className="cv view">
-            <h1>My CV</h1>
-            {image && <div className="pdf-container">
-                <img className="pdf-frame" src={cv} />
-            </div>}
+            <h1>CV</h1>
+            <div className="pdf-container">
+                <Document file={ cv }>
+                    <Page pageNumber={ 1 } className={"pdf-frame"} scale={1.1} />
+                </Document>
+            </div>
         </div>
     )
 }

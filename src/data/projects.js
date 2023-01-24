@@ -1,3 +1,5 @@
+import azurbank1 from '../assets/projects/azurbank-1.png'
+import azurbank2 from '../assets/projects/azurbank-2.png'
 import comicClan1 from '../assets/projects/comic-clan-1.png'
 import comicClan2 from '../assets/projects/comic-clan-2.png'
 import kelev1 from '../assets/projects/kelev-1.png'
@@ -16,6 +18,12 @@ import ghFinder1 from '../assets/projects/gh-finder-1.png'
 import ghFinder2 from '../assets/projects/gh-finder-2.png'
 
 const projects = [
+    {
+        name: "AzurBank",
+        img1: azurbank1,
+        img2: azurbank2,
+        github: "https://github.com/chana987/azurbank"
+    },
     {
         name: "Kelev",
         img1: kelev1,

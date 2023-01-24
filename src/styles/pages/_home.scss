@@ -1,11 +1,8 @@
 .home {
-    background-image: linear-gradient(to bottom right, rgba(149, 168, 179, 0.7), rgba(106, 132, 148, 0.7)),
-      url('../../assets/backgrounds/pura.jpg');
-    text-align: right;
+    background-image: $linear-gradient, url('../../assets/backgrounds/pura.jpg');
 
     @media only screen and (max-width: $bp-medium) {
-      background-image: linear-gradient(to bottom right, $color-secondary-clear, $color-primary-clear),
-      url("../../assets/backgrounds/pura-s.jpg");
+      background-image: $linear-gradient, url("../../assets/backgrounds/pura-s.jpg");
     }
 }
 
@@ -13,5 +10,41 @@
   &:hover {
     transform: translateY(-3px) scale(1.05);
     transition: all 0.5s ease;
+  }
+}
+
+.contacts {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+  background: $background;
+  box-shadow: $box-shadow;
+  padding: 1rem;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: start;
+  padding-left: 3rem;
+}
+
+.contact-field {
+  display: grid;
+  grid-template-columns: 2rem 7rem 20rem;
+  justify-items: left;
+}
+
+.field {
+  font-weight: bold;
+}
+
+.contact-icon{
+  font-size: 1.3rem;
+}
+
+a.contact-value {
+  &:hover {
+    font-weight: bold;
   }
 }

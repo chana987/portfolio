@@ -1,11 +1,11 @@
 .gallery-pic {
   height: 20rem;
-  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: $box-shadow;
 }
 
 .picture-frame {
-  background: rgba(248, 245, 245, 0.4);
-  box-shadow: 5px 5px 5px 0px rgba(48, 47, 47, 0.4);
+  background:$background;
+  box-shadow: $box-shadow;
   padding: 1rem;
   margin: 1rem;
 }
