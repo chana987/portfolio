@@ -6,7 +6,12 @@ const Home = () => {
     return (
         <div className="home view">
             <h1>Hi! I'm Chana,</h1>
-            <Link to="/portfolio"><h2 className="home-link">Come check out my work &gt;&gt;&gt;</h2></Link>
+            <Link to="/portfolio">
+                <h2 className="home-link">
+                    Come check out my work
+                    <FontAwesomeIcon style={{ paddingLeft: '1rem' }} icon="arrow-right" />
+                </h2>
+            </Link>
             <div className="contacts">
                 <h3 className="contact-title">Contact Me</h3>
                 <div className="contact-field">

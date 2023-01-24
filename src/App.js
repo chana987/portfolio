@@ -8,9 +8,9 @@ import CV from './components/CV';
 import profile from './assets/profile.jpeg';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faGlobe, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faEnvelope, faPhone, faGlobe);
+library.add(fab, faEnvelope, faPhone, faGlobe, faArrowRight);
 
 const App = () => {
   return (
