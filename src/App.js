@@ -31,11 +31,11 @@ const App = () => {
       </div>
       <HashRouter>
         <Routes>
-          <Route exact path='/' element={ <Home /> } />
-          <Route exact path='/about' element={ <About /> } />
-          <Route exact path='/portfolio' element={ <Portfolio /> } />
-          <Route exact path='/gallery' element={ <Gallery /> } />
-          <Route exact path='/cv' element={ <CV /> } />
+          <Route exact path='/'><Home /></Route>
+          <Route exact path='/about'><About /></Route>
+          <Route exact path='/portfolio'><Portfolio /></Route>
+          <Route exact path='/gallery'><Gallery /></Route>
+          <Route exact path='/cv'><CV /></Route>
         </Routes>
       </HashRouter>
     </div>
